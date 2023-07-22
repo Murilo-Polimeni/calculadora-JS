@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Calculadora</title>
+    <link rel="stylesheet" href="./projeto.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="tela"></div>
+      <div class="container-botao">
+        <button class="botao botao-cinza" onclick="clean()">AC</button>
+
+        <button class="botao" onclick="inserir(9)">9</button>
+        <button class="botao" onclick="inserir(8)">8</button>
+
+        <button class="botao botao-laranja" onclick="inserir('/')">/</button>
+
+        <button class="botao" onclick="inserir(7)">7</button>
+        <button class="botao" onclick="inserir(6)">6</button>
+        <button class="botao" onclick="inserir(5)">5</button>
+
+        <button class="botao botao-laranja" onclick="inserir('*')">X</button>
+        <button class="botao" onclick="inserir(4)">4</button>
+        <button class="botao" onclick="inserir(3)">3</button>
+        <button class="botao" onclick="inserir(2)">2</button>
+
+        <button class="botao botao-laranja" onclick="inserir('-')">-</button>
+
+        <button class="botao botao-centralizado" onclick="inserir(1)">1</button>
+
+        <button class="botao botao-laranja" onclick="inserir('+')">+</button>
+
+        <div class="estilizar">
+          <button class="botao botao-comprido" onclick="inserir(0)">0</button>
+
+           <button class="botao botao-laranja" onclick="calcular()">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
